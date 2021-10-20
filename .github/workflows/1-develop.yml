@@ -100,7 +100,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ failure() }}
     needs:
-      - test
+      - pull-request
     steps:
       - name: Notify Slack channel on failure
         uses: rtCamp/action-slack-notify@v2
