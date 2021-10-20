@@ -1,4 +1,4 @@
-# Ansible Playbook: longhorn
+# Ansible Playbook: cert-manager
 
 ![MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/racqspace/playbook-cert-manager/Main?style=flat-square)
