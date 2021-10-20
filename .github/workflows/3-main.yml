@@ -85,6 +85,8 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ failure() }}
     needs:
+      - ansible-linter
+      - yaml-linter
       - test
     steps:
       - name: Notify Slack channel on failure
