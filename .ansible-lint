@@ -19,8 +19,8 @@ quiet: true
 #   - fake_namespace.fake_collection.fake_module
 #   - fake_namespace.fake_collection.fake_module.fake_submodule
 
-# mock_roles:
-#  - racqspace.longhorn
+mock_roles:
+ - racqspace.cert_manager
 
 # Enable checking of loop variable prefixes in roles
 # loop_var_prefix: "k8s_"
