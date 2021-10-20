@@ -95,7 +95,7 @@ jobs:
           branch: main
           token: ${{ secrets.PAT }}
 
-notify:
+  notify:
     name: Slack Notifications
     runs-on: ubuntu-latest
     if: ${{ failure() }}
